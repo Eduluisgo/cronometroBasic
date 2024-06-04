@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  #tiempo {
+    font-size: 48px;
+    margin-bottom: 20px;
+    border: 6px solid #ccc; 
+    padding: 10px; 
+    border-radius: 10px; 
+    margin-top: 15px;
+  }
+  
+  
+  .controles {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #eee;
+  }
